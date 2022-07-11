@@ -1,0 +1,191 @@
+.App {
+  background-color: #f5f5f5;
+  height: 100vh;
+  overflow: hidden;
+  /* padding: 50px;
+  padding-left: 200px;
+  padding-right: 200px; */
+}
+
+.card-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #222222;
+}
+
+.card-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #9b9b9b;
+}
+
+.photo-profile {
+  width: 166px;
+  height: 166px;
+  border-radius: 50%;
+}
+
+.flex-center-horizontal {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-center-vertical {
+  display: flex;
+  align-items: center;
+}
+
+.btn-rounded {
+  border-radius: 24px;
+}
+
+.border-left {
+  border-left: 1px solid #d4d4d4;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #9b9b9b;
+}
+
+.mt-2 {
+  margin-top: 12px !important;
+}
+
+.h-100 {
+  height: 100vh !important;
+}
+
+/* .col-6 {
+  width: "100px";
+  height: "100vh";
+  position: "relative";
+  background-image: url("https://s3-alpha-sig.figma.com/img/86b2/055d/76c7e3577554580136d5f65222046a21?Expires=1658102400&Signature=DtZnu8gFAcjygeIM-w2ueAsVvIl2URWcrN9PBnQGNWydeawyAojVQlDLFN08OGSmbluZpWY6sKKG0uItP06MBFeffmmW86y~NG3wIoAt2wtBvawhRKS63g2tXkGOQFougEko8Vy6VtP-Psuct4h0fI4J7xmSV4NhOmFz3vOKktVOJ8HVEKxpRUU5QGEktDeKCAJwKIxKwG8TTQJ44pGce6E5nRt9580Sme7hiHPWqdB~ByR9FZxzWfavJ2-FSKkPGA5JBU24~IX31VItMdAGpPeiljh52y~3cqURXV5zIUo2VNokWKy5lTON8HSWxAiaacbpGcbgT4MbfoJUEFHMPA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-repeat: "no-repeat";
+  background-size: "cover";
+  background-position: "center";
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+  transform: "rotate(-180deg)"
+}
+
+.col-md-6 {
+  width: "50%";
+  height: "100vh";
+  display: "flex";
+  flex-direction: "column";
+  justify-content: "center";
+  align-items: "center"
+} */ */
+
+/* .login {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-image: url('https://source.unsplash.com/WEQbe2jBg40/600x1200');
+  background-size: cover;
+  background-position: center;
+}
+.login-heading {
+  font-weight: 300;
+}
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+.invalid
+{
+  border-color: red!important;
+} */
+
+.login {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.bg-image {
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("https://s3-alpha-sig.figma.com/img/86b2/055d/76c7e3577554580136d5f65222046a21?Expires=1658102400&Signature=DtZnu8gFAcjygeIM-w2ueAsVvIl2URWcrN9PBnQGNWydeawyAojVQlDLFN08OGSmbluZpWY6sKKG0uItP06MBFeffmmW86y~NG3wIoAt2wtBvawhRKS63g2tXkGOQFougEko8Vy6VtP-Psuct4h0fI4J7xmSV4NhOmFz3vOKktVOJ8HVEKxpRUU5QGEktDeKCAJwKIxKwG8TTQJ44pGce6E5nRt9580Sme7hiHPWqdB~ByR9FZxzWfavJ2-FSKkPGA5JBU24~IX31VItMdAGpPeiljh52y~3cqURXV5zIUo2VNokWKy5lTON8HSWxAiaacbpGcbgT4MbfoJUEFHMPA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+  transform: rotate(-180deg);
+}
+
+.login-heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  display: flex;
+  justify-content: center;
+  color: #efc81a;
+}
+
+.login-description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  display: flex;
+  justify-content: center;
+  color: #8692A6;
+}
+
+.border-bg {
+  display: inherit;
+  width: 100%;
+  margin: 10px auto;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.border-bg-2 {
+  display: inherit;
+  width: 50%;
+  margin: 10px auto;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.text-right {
+  font-family: "Airbnb Cereal App";
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  justify-content: right;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+  background: #efc81a;
+  border-radius: 6px;
+}
+.invalid {
+  border-color: red !important;
+}
+.overflow-hidden{
+  height: 100vh;
+  overflow: hidden;
+}
